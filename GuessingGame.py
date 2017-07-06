@@ -1,13 +1,15 @@
+# A game that prompts the user to guess a number and gives a hint after each
+# guess. Prints statistics if the user does not want to play again.
+
 import random
 
 play = True
-max = 100
+max = 1000 # set the max number that can be guessed
 count = 0
 guess = 0
 sum = 0
 totalGames = 0
 best = 1000000
-
 
 while play:
     if count == 0:
